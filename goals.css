@@ -1,0 +1,216 @@
+/* CSS file for goals.html */
+
+img, main { 
+    border: 1px solid black;
+} 
+body {
+    background-color: rgb(46, 184, 46);
+}
+header {
+    display: flex;
+    justify-content: space-between;
+}
+.leftHeader {
+    display: flex; 
+    justify-content: flex-start;  
+}
+.h1s {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 90px;
+    margin-left: 1vw;
+}
+h1 {
+    margin: 0;
+    padding: 0;
+    height: 7vw;
+}
+.rightHeader { 
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 44vw;
+    margin-right: 2vw;
+}
+nav {
+    width: 43.8vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 4.5vw;
+    background-color: rgb(255, 247, 186);
+    border-top-right-radius: 11.7%;
+    border-top-left-radius: 11.7%;
+    margin-bottom: -1vw;
+}
+.aDivs {
+    border-top: 1px solid black;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-top-right-radius: 15%;
+    border-top-left-radius: 15%;
+    padding: 1.23vw 1.61vw;
+    
+}
+.goalsTab {
+    border-bottom: 2px solid rgb(255, 247, 186);;
+}
+div a {
+    
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 5px 11px;
+    border: 1px solid rgb(230, 230, 230);
+}
+div a:hover {
+    color: rgb(46, 184, 46);
+}
+div a:visited {
+    color: black;
+}
+main {
+    background-color: rgb(255, 247, 186);
+    border-top-left-radius: 3%;
+    margin: 1vw 2vw 0 2vw;
+    padding-bottom: 1vw;
+}
+.imageBar {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+h2 {
+    background-color: white;
+    border: 1px solid rgb(230, 230, 230); 
+    width: 10vw;
+    font-size: 48px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.bottomMain {
+    display: flex;
+    justify-content: space-around;
+}
+.goalsColumn1 {
+    width: 27vw;
+}
+.goalsColumn2 {
+    width: 27vw;
+}
+.goalsColumn3 {
+    width: 27vw;
+}
+.bigWhite1 {
+    background-color: white;
+    border: 1px solid rgb(230, 230, 230);
+    padding: 8px; 
+}
+.bigWhite1 p {
+    margin: 0;
+    margin-bottom: 10px;
+}
+.bigWhite2 {
+    background-color: white;
+    border: 1px solid rgb(230, 230, 230); 
+    padding: 8px;
+}
+.bigWhite2 p {
+    margin: 0;
+    margin-bottom: 10px;
+}
+.bigWhite3 {
+    background-color: white;
+    border: 1px solid rgb(230, 230, 230); 
+    padding: 8px;
+}
+.bigWhite3 p {
+    margin: 0;
+    margin-bottom: 10px;
+}
+.goals1 {
+    display: flex;
+    justify-content: center;
+}
+.goals2 {
+    display: flex;
+    justify-content: center;
+}
+.goals3 {
+    display: flex;
+    justify-content: center;
+}
+h3 {
+    background-color: white;    
+    border: 1px solid rgb(230, 230, 230);
+    width: 15vw;
+    padding: 7px;
+    display: flex;
+    justify-content: center;
+}  
+footer {
+    height: 7vw;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2vw;
+}
+.leftFoot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 35vw;
+    margin-left: 2vw;    
+}
+.date {
+    display: flex;
+    align-items: center;
+    width: 11vw;
+    justify-content: space-between;
+}
+.email {
+    display: flex;
+    align-items: center;
+    width: 19vw;
+    justify-content: space-between;
+}
+.bolder {
+    font-size: 24px;
+    font-weight: 500;
+}
+.lesserThan {
+    font-size: 20px;
+    font-weight: 400;
+}
+.rightFoot {
+    display: flex;
+    align-items: center;
+    height: 7vw;
+}
+.socialMediaIcons {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 40vw;
+    height: 7vw;
+}
+.socialMediaIcons li {
+    display: flex;
+    align-items: center;
+    height: 6vw;
+    margin-right: 1vw;
+}
+.socialMediaIcons a {
+    display: flex;
+    align-items: center;
+    height: 4vw;
+    padding: .3vw;
+    background-color: white;
+}
